@@ -1,0 +1,62 @@
+{
+  "Sydney": {
+    "position": {
+      "latitude": -33.869,
+      "longitude": 151.209
+    }
+  },
+  "London": {
+    "position": {
+      "latitude": 51.507,
+      "longitude": -0.128
+    }
+  },
+  "Bangalore": {
+    "position": {
+      "latitude": 12.97,
+      "longitude": 77.56
+    }
+  },
+  "Dubai": {
+    "position": {
+      "latitude": 25.205,
+      "longitude": 55.271
+    }
+  },
+  "Dallas": {
+    "position": {
+      "latitude": 32.777,
+      "longitude": -96.797
+    }
+  },
+  "Thimphu": {
+    "position": {
+      "latitude": 27.473,
+      "longitude": 89.639
+    }
+  },
+  "Toronto": {
+    "position": {
+      "latitude": 43.653,
+      "longitude": -79.383
+    }
+  },
+  "Buenos Aires": {
+    "position": {
+      "latitude": -34.604,
+      "longitude": -58.382
+    }
+  },
+  "Cape Town": {
+    "position": {
+      "latitude": -33.925,
+      "longitude": 18.424
+    }
+  },
+  "Beijing": {
+    "position": {
+      "latitude": 39.904,
+      "longitude": 116.407
+    }
+  }
+}
