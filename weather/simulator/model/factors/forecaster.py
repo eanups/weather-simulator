@@ -53,7 +53,7 @@ class WeatherForecaster:
         :return:
         """
         x, y = ImageParser().get_xy_from_city(self.city)
-        return ImageViewer.display(self.city, x, y)
+        ImageViewer.display(self.city, x, y)
 
     def forecast(self):
         """
@@ -65,14 +65,7 @@ class WeatherForecaster:
 
 
 if __name__ == '__main__':
-    print(WeatherForecaster('Sydney').forecast())
-    print(WeatherForecaster('Bangalore').forecast())
-    print(WeatherForecaster('Thimphu').forecast())
-    print(WeatherForecaster('London').forecast())
-    print(WeatherForecaster('Beijing').forecast())
-    print(WeatherForecaster('Buenos Aires').forecast())
-    print(WeatherForecaster('Cape Town').forecast())
-    print(WeatherForecaster('Toronto').forecast())
+    WeatherForecaster('Sydney').view_location()
 
 
 
