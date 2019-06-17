@@ -1,5 +1,5 @@
 import hug
-from wesim import Weather
+from weather_generate import Weather
 
 
 @hug.get()
@@ -12,8 +12,8 @@ def index():
 @hug.get()
 def weather(city: hug.types.text=None):
     return {
-        'cities': city,
-        'weather': Weather.simulate()
+        'city': city,
+        'weather': Weather.simulate(city)
     }
 
 

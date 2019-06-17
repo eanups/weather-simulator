@@ -22,4 +22,3 @@ class Weather:
 
 if __name__ == '__main__':
     print(Weather.simulate())
-    print(Weather.simulate())
